@@ -1,32 +1,41 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README - Análise de Churn</title>
-</head>
-<body>
-    <h1>Análise de Churn de Clientes (Teleco)</h1>
+# Análise de Churn de Clientes (Teleco)
 
-    <p>E aí!</p>
-    <p>Este projeto foi uma análise rápida que fiz para entender o porquê de alguns clientes estarem nos deixando. A ideia era mergulhar nos dados e descobrir o que está por trás do <b>churn</b>.</p>
+Este repositório contém uma análise exploratória de dados (EDA) focada no comportamento de clientes de uma empresa de telecomunicações, com o objetivo de identificar os principais fatores que levam ao abandono do serviço (`Churn`).
 
-    <h3>O Que Eu Descobri</h3>
-    <ul>
-        <li><b>Clientes Novos são o Nosso Maior Problema</b>: Fiquei surpreso ao ver que a maioria dos clientes que cancelam são os mais recentes. A galera sai logo no começo, o que provavelmente significa que precisamos melhorar a experiência inicial.</li>
-        <li><b>Estamos Perdendo Nossos Clientes mais Valiosos</b>: O que é mais preocupante é que os clientes que saem são, em média, os que pagam mais por mês. Ou seja, o <b>churn</b> está doendo no nosso bolso, e não é pouco.</li>
-        <li><b>Há Muita Grana em Jogo</b>: Fiz umas contas rápidas e, se a gente conseguir segurar só 25% dos clientes que estão saindo, podemos salvar uma grana boa a longo prazo. Isso prova que vale muito a pena investir em retenção.</li>
-    </ul>
+---
 
-    <h3>No Repositório</h3>
-    <p>Aqui você vai encontrar o notebook <code>A3_Data.ipynb</code>, onde eu fiz toda a análise. Lá tem a limpeza dos dados, os gráficos que me ajudaram a chegar nessas conclusões e os cálculos financeiros que mostram o tamanho do problema.</p>
+## Propósito do Projeto
 
-    <h3>Ferramentas que usei</h3>
-    <ul>
-        <li><b>Python</b>: Pra fazer a mágica toda.</li>
-        <li><b>Pandas &amp; NumPy</b>: Pra organizar e manipular os dados.</li>
-        <li><b>Matplotlib &amp; Seaborn</b>: Pra criar os gráficos e visualizar tudo.</li>
-    </ul>
+O objetivo principal desta análise é entender a relação entre as características dos clientes (como tempo de permanência, gastos mensais e serviços contratados) e a probabilidade de `Churn`. O estudo visa fornecer insights valiosos para a equipe de negócios, permitindo a criação de estratégias mais eficazes de retenção de clientes.
 
-</body>
-</html>
+---
+
+## Análise e Insights
+
+A análise, realizada em um notebook Jupyter, revelou os seguintes pontos principais:
+
+* **Relação entre `Tenure` e `Churn`**: O tempo de permanência (`Tenure`) é um dos preditores mais fortes de abandono. A taxa de `Churn` é significativamente mais alta entre os clientes novos (com baixo `tenure`) e diminui drasticamente à medida que o tempo de permanência aumenta.
+* **Impacto de `MonthlyCharges`**: A média de gastos mensais dos clientes que cancelam é superior àqueles que permanecem, indicando que a empresa está perdendo clientes de alto valor.
+* **Análise Financeira**: Uma projeção com uma redução de 25% na taxa de `Churn` demonstra um potencial substancial de receita salva, ressaltando o valor financeiro direto da retenção de clientes.
+* **Correlações entre Variáveis**: Foi identificada uma forte correlação entre as variáveis `tenure` e `TotalCharges`, o que faz sentido, já que o valor total pago se acumula ao longo do tempo.
+
+---
+
+## Estrutura do Repositório
+
+O repositório contém o arquivo `A3_Data.ipynb`, que inclui:
+
+* Limpeza e pré-processamento de dados.
+* Análise de correlação entre as variáveis numéricas.
+* Visualizações gráficas para explorar a distribuição de `tenure` por `churn`.
+* Cálculo e visualização do impacto financeiro do `churn`.
+
+---
+
+## Tecnologias Utilizadas
+
+* **Python**: Linguagem de programação.
+* **Pandas**: Para manipulação e análise de dados.
+* **NumPy**: Para operações numéricas.
+* **Matplotlib** e **Seaborn**: Para visualização de dados.
+* **Jupyter**: Ambiente de desenvolvimento interativo.
