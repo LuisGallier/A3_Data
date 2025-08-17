@@ -1,6 +1,6 @@
 # Análise de Churn de Clientes (Teleco)
 
-Este repositório contém uma análise exploratória de dados (EDA) focada no comportamento de clientes de uma empresa de telecomunicações, com o objetivo de identificar os principais fatores que levam ao abandono do serviço (`Churn`).
+Este repositório contém uma análise exploratória de dados (EDA) focada no comportamento de clientes de uma empresa de telecomunicações, com o objetivo de identificar os principais fatores que levam ao abandono do serviço (**Churn**).
 
 ---
 
