@@ -12,7 +12,7 @@ O objetivo principal desta análise é entender a relação entre as caracterís
 
 ## Análise e Insights
 
-A análise, realizada em um notebook Jupyter, revelou os seguintes pontos principais:
+A análise revelou os seguintes pontos principais:
 
 * **Relação entre Tenure e Churn**: O tempo de permanência (**Tenure**) é um dos preditores mais fortes de abandono. A taxa de **Churn** é significativamente mais alta entre os clientes novos e diminui drasticamente à medida que o tempo de permanência aumenta.
 * **Impacto de MonthlyCharges**: A média de gastos mensais dos clientes que cancelam é superior àqueles que permanecem, indicando que a empresa está perdendo clientes de alto valor.
@@ -26,12 +26,12 @@ A análise, realizada em um notebook Jupyter, revelou os seguintes pontos princi
 
 ## Estrutura do Repositório
 
-O repositório contém o arquivo `A3_Data.ipynb`, que inclui:
+O repositório contém o arquivo **A3_Data.ipynb**, que inclui:
 
 * Limpeza e pré-processamento de dados.
 * Análise de correlação entre as variáveis numéricas.
-* Visualizações gráficas para explorar a distribuição de `tenure` por `churn`.
-* Cálculo e visualização do impacto financeiro do `churn`.
+* Visualizações gráficas para explorar a distribuição de **tenure** por **churn**.
+* Cálculo e visualização do impacto financeiro do **churn**.
 
 ---
 
