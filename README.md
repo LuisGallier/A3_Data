@@ -14,8 +14,11 @@ O objetivo principal desta análise é entender a relação entre as caracterís
 
 A análise, realizada em um notebook Jupyter, revelou os seguintes pontos principais:
 
-* **Relação entre `Tenure` e `Churn`**: O tempo de permanência (`Tenure`) é um dos preditores mais fortes de abandono. A taxa de `Churn` é significativamente mais alta entre os clientes novos (com baixo `tenure`) e diminui drasticamente à medida que o tempo de permanência aumenta.
-* **Impacto de `MonthlyCharges`**: A média de gastos mensais dos clientes que cancelam é superior àqueles que permanecem, indicando que a empresa está perdendo clientes de alto valor.
+* **Relação entre Tenure e Churn**: O tempo de permanência (**Tenure**) é um dos preditores mais fortes de abandono. A taxa de **Churn** é significativamente mais alta entre os clientes novos e diminui drasticamente à medida que o tempo de permanência aumenta.
+* **Impacto de MonthlyCharges**: A média de gastos mensais dos clientes que cancelam é superior àqueles que permanecem, indicando que a empresa está perdendo clientes de alto valor.
+* **Vulnerabilidade dos Clientes Novos**: A alta taxa de evasão entre clientes recém-chegados sugere problemas na experiência inicial, como falhas no processo de integração (onboarding) ou expectativas não atendidas, tornando esse grupo o de maior risco de abandono.
+* **Perda de Clientes de Alto Valor**: A média de gastos mensais dos clientes que saem é significativamente maior do que a daqueles que permanecem, indicando a perda de clientes de alto valor e um impacto direto e negativo na receita.
+* **Relação com o Serviço Contratado**: Clientes com contratos de longo prazo (anuais ou bienais) apresentam uma taxa de churn drasticamente menor. Da mesma forma, a adoção de métodos de pagamento automático e a contratação de serviços adicionais (como backup e segurança) estão diretamente associadas a uma maior retenção.
 * **Análise Financeira**: Uma projeção com uma redução de 25% na taxa de `Churn` demonstra um potencial substancial de receita salva, ressaltando o valor financeiro direto da retenção de clientes.
 * **Correlações entre Variáveis**: Foi identificada uma forte correlação entre as variáveis `tenure` e `TotalCharges`, o que faz sentido, já que o valor total pago se acumula ao longo do tempo.
 
