@@ -6,7 +6,7 @@ Este repositório contém uma análise exploratória de dados (EDA) focada no co
 
 ## Propósito do Projeto
 
-O objetivo principal desta análise é entender a relação entre as características dos clientes (como tempo de permanência, gastos mensais e serviços contratados) e a probabilidade de `Churn`. O estudo visa fornecer insights valiosos para a equipe de negócios, permitindo a criação de estratégias mais eficazes de retenção de clientes.
+O objetivo principal desta análise é entender a relação entre as características dos clientes (como tempo de permanência, gastos mensais e serviços contratados) e o **Churn**. O estudo visa fornecer insights valiosos para a equipe de negócios, permitindo a criação de estratégias mais eficazes de retenção de clientes.
 
 ---
 
